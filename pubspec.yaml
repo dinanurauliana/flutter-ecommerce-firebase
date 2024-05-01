@@ -14,6 +14,10 @@ dependencies:
     sdk: flutter
 
   # UTILITY PACKAGES
+  http: ^1.2.1
+  intl: ^0.19.0
+  logger: ^2.2.0
+  url_launcher: ^6.2.6
 
   # ICONS
   iconsax: ^0.0.8
@@ -21,6 +25,7 @@ dependencies:
 
   # STATE MANAGEMENT
   get: ^4.6.6
+  get_storage: ^2.1.1
 
   # PRODUCT SPECIFIC
 
