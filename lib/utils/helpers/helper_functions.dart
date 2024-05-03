@@ -79,7 +79,8 @@ class THelperFunctions {
   }
 
   static bool isDarkMode(BuildContext context) {
-    return Theme.of(context).brightness == Brightness.dark;
+    final brightness = MediaQuery.of(context).platformBrightness;
+    return brightness == Brightness.dark;
   }
 
   static Size screenSize() {
