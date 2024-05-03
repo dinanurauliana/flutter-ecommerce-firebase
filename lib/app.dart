@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+
 import 'features/screens/onboarding/onboarding.dart';
 import 'utils/theme/theme.dart';
-import 'package:get/get.dart';
 
 class App extends StatelessWidget {
   const App({super.key});
