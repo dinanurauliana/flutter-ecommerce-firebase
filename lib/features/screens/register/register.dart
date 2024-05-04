@@ -15,7 +15,7 @@ class RegisterScreen extends GetView<RegisterController> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        iconTheme: Theme.of(context).iconTheme,
+        actionsIconTheme: Theme.of(context).iconTheme,
       ),
       body: SingleChildScrollView(
         child: Padding(

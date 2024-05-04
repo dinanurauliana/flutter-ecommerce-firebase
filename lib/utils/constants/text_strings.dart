@@ -68,4 +68,7 @@ class TTexts {
   // -- Home
   static const String homeAppbarTitle = "Good day for shopping";
   static const String homeAppbarSubTitle = "Taimoor Sikander";
+
+  // -- Email Support
+  static const String emailSupport = 'support@gmail.com';
 }

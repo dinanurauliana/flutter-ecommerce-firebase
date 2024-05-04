@@ -149,7 +149,7 @@ class RegisterForm extends GetView<RegisterController> {
           SizedBox(
             width: double.infinity,
             child: ElevatedButton(
-              onPressed: () {},
+              onPressed: () => Get.offAllNamed('verify-email'),
               child: const Text(TTexts.createAccount),
             ),
           )
