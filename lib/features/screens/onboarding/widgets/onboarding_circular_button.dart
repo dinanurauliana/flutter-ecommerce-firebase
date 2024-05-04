@@ -21,7 +21,7 @@ class OnboardingButton extends StatelessWidget {
         onPressed: controller.nextPage,
         style: ElevatedButton.styleFrom(
             backgroundColor: dark ? TColors.colorPrimary : TColors.black,
-            shape: CircleBorder(),
+            shape: const CircleBorder(),
             side: BorderSide.none),
         child: const Icon(Iconsax.arrow_right_3),
       ),
