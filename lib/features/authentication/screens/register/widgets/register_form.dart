@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
 
-import '../../../../utils/constants/colors.dart';
-import '../../../../utils/constants/size.dart';
-import '../../../../utils/constants/text_strings.dart';
-import '../../../../utils/helpers/helper_functions.dart';
-import '../../../controllers/register/register_controller.dart';
+import '../../../../../utils/constants/colors.dart';
+import '../../../../../utils/constants/size.dart';
+import '../../../../../utils/constants/text_strings.dart';
+import '../../../../../utils/helpers/helper_functions.dart';
+import '../../../../authentication/controllers/register/register_controller.dart';
 
 class RegisterForm extends GetView<RegisterController> {
   const RegisterForm({super.key});

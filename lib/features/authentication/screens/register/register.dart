@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import '../../../common/widgets/sign_in/form_divider.dart';
-import '../../../common/widgets/sign_in/social_button.dart';
-import '../../../utils/constants/size.dart';
-import '../../../utils/constants/text_strings.dart';
-import '../../controllers/register/register_controller.dart';
+import '../../../../common/widgets/sign_in/form_divider.dart';
+import '../../../../common/widgets/sign_in/social_button.dart';
+import '../../../../utils/constants/size.dart';
+import '../../../../utils/constants/text_strings.dart';
+import '../../../authentication/controllers/register/register_controller.dart';
 import 'widgets/register_form.dart';
 
 class RegisterScreen extends GetView<RegisterController> {

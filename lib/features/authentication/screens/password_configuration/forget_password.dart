@@ -1,10 +1,11 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_ecommerce/features/screens/password_configuration/reset_password.dart';
-import 'package:flutter_ecommerce/utils/constants/size.dart';
-import 'package:flutter_ecommerce/utils/constants/text_strings.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
+
+import '../../../../utils/constants/size.dart';
+import '../../../../utils/constants/text_strings.dart';
+import '../../screens/password_configuration/reset_password.dart';
 
 class ForgetPasswordScreen extends StatelessWidget {
   const ForgetPasswordScreen({super.key});

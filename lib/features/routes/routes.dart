@@ -1,9 +1,9 @@
-import 'package:flutter_ecommerce/features/screens/login/login.dart';
-import 'package:flutter_ecommerce/features/screens/register/verify_email.dart';
 import 'package:get/get.dart';
 
-import '../screens/onboarding/onboarding.dart';
-import '../screens/register/register.dart';
+import '../authentication/screens/login/login.dart';
+import '../authentication/screens/onboarding/onboarding.dart';
+import '../authentication/screens/register/register.dart';
+import '../authentication/screens/register/verify_email.dart';
 
 class Routes {
   static final route = [

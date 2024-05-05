@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-import '../../../../utils/constants/image_strings.dart';
-import '../../../../utils/constants/size.dart';
-import '../../../../utils/constants/text_strings.dart';
-import '../../../../utils/helpers/helper_functions.dart';
+import '../../../../../utils/constants/image_strings.dart';
+import '../../../../../utils/constants/size.dart';
+import '../../../../../utils/constants/text_strings.dart';
+import '../../../../../utils/helpers/helper_functions.dart';
 
 class LoginHeader extends StatelessWidget {
   const LoginHeader({super.key});

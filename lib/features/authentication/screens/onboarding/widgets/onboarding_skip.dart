@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ecommerce/features/controllers/onboarding/onboarding_controller.dart';
+import 'package:flutter_ecommerce/features/authentication/controllers/onboarding/onboarding_controller.dart';
 
-import '../../../../utils/constants/size.dart';
-import '../../../../utils/constants/text_strings.dart';
-import '../../../../utils/device/device_utility.dart';
+import '../../../../../utils/constants/size.dart';
+import '../../../../../utils/constants/text_strings.dart';
+import '../../../../../utils/device/device_utility.dart';
 
 class OnboardingSkip extends StatelessWidget {
   const OnboardingSkip({
