@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_ecommerce/common/styles/spacing_styles.dart';
 
 import '../../../utils/constants/size.dart';
 import '../../../utils/constants/text_strings.dart';
@@ -21,7 +22,7 @@ class SuccessScreen extends StatelessWidget {
       appBar: AppBar(),
       body: SingleChildScrollView(
         child: Padding(
-          padding: const EdgeInsets.all(TSizes.defaultspace),
+          padding: TSpacingStyles.paddingWithAppBarHeight * 2,
           child: Center(
             child: Column(
               children: [

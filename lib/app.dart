@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_ecommerce/features/routes/routes.dart';
+import 'package:flutter_ecommerce/features/screens/login/login.dart';
+import 'package:flutter_ecommerce/features/screens/password_configuration/forget_password.dart';
 import 'package:get/get.dart';
 
 import 'features/screens/onboarding/onboarding.dart';
@@ -15,7 +17,7 @@ class App extends StatelessWidget {
       themeMode: ThemeMode.system,
       theme: TAppTheme.lightTheme,
       darkTheme: TAppTheme.darkTheme,
-      home: const OnboardingScreen(),
+      home: const LoginScreen(),
       getPages: Routes.route,
     );
   }
