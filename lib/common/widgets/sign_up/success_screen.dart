@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ecommerce/features/screens/login/login.dart';
-import 'package:flutter_ecommerce/utils/constants/image_strings.dart';
-import 'package:flutter_ecommerce/utils/constants/size.dart';
-import 'package:flutter_ecommerce/utils/constants/text_strings.dart';
-import 'package:flutter_ecommerce/utils/helpers/helper_functions.dart';
-import 'package:get/get.dart';
+
+import '../../../utils/constants/size.dart';
+import '../../../utils/constants/text_strings.dart';
+import '../../../utils/helpers/helper_functions.dart';
 
 class SuccessScreen extends StatelessWidget {
   const SuccessScreen(

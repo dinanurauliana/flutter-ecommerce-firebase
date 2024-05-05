@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ecommerce/features/controllers/onboarding/onboarding_controller.dart';
-import 'package:flutter_ecommerce/utils/constants/colors.dart';
-import 'package:flutter_ecommerce/utils/constants/size.dart';
-import 'package:flutter_ecommerce/utils/device/device_utility.dart';
-import 'package:flutter_ecommerce/utils/helpers/helper_functions.dart';
 import 'package:iconsax/iconsax.dart';
+
+import '../../../../utils/constants/colors.dart';
+import '../../../../utils/constants/size.dart';
+import '../../../../utils/device/device_utility.dart';
+import '../../../../utils/helpers/helper_functions.dart';
+import '../../../controllers/onboarding/onboarding_controller.dart';
 
 class OnboardingButton extends StatelessWidget {
   const OnboardingButton({super.key});

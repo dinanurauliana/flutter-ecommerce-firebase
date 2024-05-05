@@ -85,7 +85,7 @@ class LoginForm extends StatelessWidget {
           SizedBox(
             width: double.infinity,
             child: OutlinedButton(
-              onPressed: () => Get.to(const RegisterScreen()),
+              onPressed: () => Get.to(() => const RegisterScreen()),
               child: const Text(TTexts.createAccount),
             ),
           ),
