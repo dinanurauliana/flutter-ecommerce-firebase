@@ -1,40 +1,44 @@
 import 'package:flutter/material.dart';
+import '../curved_edges/curved_edge_widget.dart';
 
 import '../../../../utils/constants/colors.dart';
 import 'circular_container.dart';
 
-class PrimaryHeaderContainer extends StatelessWidget {
-  const PrimaryHeaderContainer({
-    super.key, this.child,
+class TPrimaryHeaderContainer extends StatelessWidget {
+  const TPrimaryHeaderContainer({
+    super.key,
+    required this.child,
   });
 
-  final Widget? child;
+  final Widget child;
 
   @override
   Widget build(BuildContext context) {
-    
-    return Container(
-      color: TColors.colorPrimary,
-      padding: const EdgeInsets.all(0),
+    return TCurvedEdgeWidget(
       child: SizedBox(
         height: 400,
-        child: Stack(
-          children: [
-            Positioned(
-              top: -150,
-              right: -250,
-              child: TCircularContainer(
-                backgroundColor: TColors.textWhite.withOpacity(0.1),
+        child: Container(
+          color: TColors.colorPrimary,
+          padding: const EdgeInsets.all(0),
+          child: Stack(
+            children: [
+              Positioned(
+                top: -150,
+                right: -250,
+                child: TCircularContainer(
+                  backgroundColor: TColors.textWhite.withOpacity(0.1),
+                ),
               ),
-            ),
-            Positioned(
-              top: 100,
-              right: -300,
-              child: TCircularContainer(
-                backgroundColor: TColors.textWhite.withOpacity(0.1),
+              Positioned(
+                top: 100,
+                right: -300,
+                child: TCircularContainer(
+                  backgroundColor: TColors.textWhite.withOpacity(0.1),
+                ),
               ),
-            ),
-          ],
+              child
+            ],
+          ),
         ),
       ),
     );

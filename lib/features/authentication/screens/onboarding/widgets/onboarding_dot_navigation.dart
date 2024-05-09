@@ -27,7 +27,7 @@ class OnboardingNavigation extends StatelessWidget {
         count: 3,
         effect: ExpandingDotsEffect(
           activeDotColor: isDark ? TColors.white : TColors.black,
-          dotHeight: 6,
+          dotHeight: 5,
         ),
       ),
     );

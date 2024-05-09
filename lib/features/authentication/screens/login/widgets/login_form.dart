@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ecommerce/features/authentication/screens/login/login.dart';
-import 'package:flutter_ecommerce/navigation_menu.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
 
+import '../../../../../navigation_menu.dart';
 import '../../../../../utils/constants/size.dart';
 import '../../../../../utils/constants/text_strings.dart';
 import '../../register/register.dart';
